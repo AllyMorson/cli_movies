@@ -2,16 +2,17 @@
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require "movies/version"
+require 'nokogiri'
+require 'pry'
 
 Gem::Specification.new do |spec|
   spec.name          = "movies"
   spec.version       = Movies::VERSION
-  spec.authors       = ["TODO: Write your name"]
-  spec.email         = ["TODO: Write your email address"]
+  spec.authors       = ["AllyMorson"]
+  spec.email         = ["ally.morson@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{The CLI interface reports the top movies in the box office and respective grosses.}
+  spec.homepage      = "git@github.com:AllyMorson/cli_movies.git"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
