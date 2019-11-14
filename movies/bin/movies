@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+
+require_relative "../lib/movies"
+
+BoxOffice::CLI.new.call
+
+# cli = BoxOffice::CLI.new
+# cli.get_titles
+# cli.menu
+# cli.goodbye
