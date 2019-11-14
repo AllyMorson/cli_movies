@@ -1,6 +1,6 @@
 # Movies
 
-Welcome , The CLI reports the top 5 movies in the box office and respective grosses.
+Welcome , The CLI reports the top movies in the box office and respective grosses.
 
 ## Installation
 
